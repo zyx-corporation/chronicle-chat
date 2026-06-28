@@ -1,0 +1,27 @@
+{
+  "name": "chronicle-chat",
+  "version": "0.1.0",
+  "description": "Chronicle Chat turns LLM conversations into reviewable meaning-event streams.",
+  "type": "module",
+  "private": false,
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": [
+    "chronicle",
+    "meaning-architecture",
+    "rde",
+    "llm",
+    "chat"
+  ],
+  "author": "Tomoyuki Kano <tomyuk@zyxcorp.jp>",
+  "devDependencies": {
+    "@types/node": "^20.14.15",
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.5"
+  }
+}
